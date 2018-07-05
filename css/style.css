@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+}
+
+.swatchbook {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 500px;
+}
+.swatchbook div {
+  background-image: url("cover.jpg");
+  cursor: pointer;
+  position: absolute;
+  width: 130px;
+  height: 400px;
+  box-shadow: 3px 5px 20px black;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+.swatchbook div span {
+  margin-top: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+.swatchbook div P {
+  margin-top: 50px;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+.swatchbook div:nth-child(1) {
+  background: #BD2827;
+}
+.swatchbook div:nth-child(2) {
+  background: #C65B2C;
+}
+.swatchbook div:nth-child(3) {
+  background: #CF7F29;
+}
+.swatchbook div:nth-child(4) {
+  background: #D3AC1D;
+}
+.swatchbook div:nth-child(5) {
+  background: #D1BF16;
+}
+.swatchbook div:nth-child(6) {
+  background: #6F8E1E;
+}
+.swatchbook div:nth-child(7) {
+  background: #0E6E4A;
+}
+.swatchbook div:nth-child(8) {
+  background: #3C6E9C;
+}
+.swatchbook div:nth-child(9) {
+  background: #4A4D87;
+}
+.swatchbook div:nth-child(10) {
+  background: #6D4481;
+}
+.swatchbook div:nth-child(11) {
+  background: #A81672;
+}
+.swatchbook div:nth-child(12) {
+  background: #3B3633;
+}
